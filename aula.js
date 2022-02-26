@@ -1,3 +1,41 @@
+const nomes = ["Ana Maria", "Antonio", "Rodrigo", "Alex", "Cristina"]
+
+
+const apenasA = nomes.filter((n) => {
+    return n.startsWith("A")
+});
+console.log(apenasA)
+
+// int * v = malloc(4)
+// free(v)
+
+// const numeros = [1, 2]
+// console.log(numeros.length)
+// numeros[4] = 2
+// console.log(numeros.length)
+
+// const numeros = [1, 2]
+// numeros[0] = 2
+// console.log(numeros)
+// numeros = [1, 2]
+// const nomes = ['Ana Maria']
+
+
+
+
+// int v [10];
+
+// const v1 = []
+// console.log(v1.length)
+
+// v1[0] = 3.4
+// v1[10] = 2
+// v1[2] = true
+// console.log(v1.length)
+// // for (let i = 0; i < v1.length; i++){
+// //     console.log(v1[i])
+// // }
+// v1.forEach((a) => console.log (a))
 
 // console.log ('b' + 'a' + + 'a' + 'a')
 // const nome = "a"
