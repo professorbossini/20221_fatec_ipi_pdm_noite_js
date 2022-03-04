@@ -1,10 +1,30 @@
-const nomes = ["Ana Maria", "Antonio", "Rodrigo", "Alex", "Cristina"]
 
 
-const apenasA = nomes.filter((n) => {
-    return n.startsWith("A")
-});
-console.log(apenasA)
+// const valores = [1, 2, 3, 4]
+// const soma = valores.reduce((ac, v) => ac + v, 0)
+// console.log(soma)
+
+// const nomes = ["Ana Maria", "Antonio", "ARodrigo", "Alex", "ACristina"]
+
+// const todosComecamComA = nomes.every(nome => nome.startsWith("A"))
+// console.log(todosComecamComA)
+
+
+
+// const res = nomes.map ((nome) => nome.length)
+// console.log(res)
+
+// const res = nomes.map ((nome) => nome.charAt(0))
+// console.log(res)
+//usando a map, construa um vetor que contém os comprimentos
+//das strings existentes no vetor nomes
+//[9, 7, 7, 4, 8]
+
+
+// const apenasA = nomes.filter((n) => {
+//     return n.startsWith("A")
+// });
+// console.log(apenasA)
 
 // int * v = malloc(4)
 // free(v)
