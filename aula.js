@@ -1,4 +1,163 @@
+let p = {
+    nome: "Maria",
+    idade: 22,
+    endereco: {
+        logradouro: "Rua B",
+        numero: 44,
+        bairro: "Vila K"
+    }
+}
+console.log(p.endereco.logradouro)
+console.log(p['endereco'].numero)
+console.log(p.endereco['bairro'])
+console.log(p['endereco']['bairro'])
+// let pessoa = {
+//     nome: "João",
+//     idade: 17
+// }
 
+// console.log(pessoa.nome)
+// console.log(pessoa['idade'])
+
+
+
+
+// //exercicio
+// //implementar a filter
+// //obs: não vale usar a função filter que
+// //já está pronta
+// function map (v, f){
+//     let aux = []
+//     for (let i = 0; i < v.length; i++){
+//         aux.push(f(v[i]))
+//     }
+//     return aux
+// }
+
+
+// console.log (map (["abc", "def"], _ => 1))
+// console.log (map (["abc", "def"], (e) => e.charAt(0)))
+// function filter (v, f){
+//     let aux = []
+//     for (let i = 0; i < v.length; i++){
+//         if (f(v[i])){
+//             aux.push(v[i])
+//         }
+//     }
+//     return aux
+// }
+
+// //tem que exibir [2]
+// console.log (filter ([1, 2], (n) => n % 2 == 0))
+
+
+// //ES6
+// //função de alta ordem
+// //higher-order function
+// function f (funcao){
+//     funcao()
+// }
+
+// //função de alta ordem também
+// function g (){
+//     function outraFuncao (){
+//         console.log ("Fui produzida pela g")
+//     }
+//     return outraFuncao
+// }
+
+// const resultadoDaG = g()
+// console.log(resultadoDaG())
+// f(g())
+
+
+// g()()()
+// undefined()
+
+
+
+
+// f (function (){
+//     console.log ("Estou sendo passada para a f")
+// })
+
+// f(1)
+
+
+
+
+
+// let umaFuncao = function (){
+//     console.log ("Fui armazenada em uma variável")
+// }
+// umaFuncao()
+
+
+
+// const v = [1, 2, 3]
+// const f = (x) => {return x.filter (n => n % 2 == 0)}
+// function outra (x){
+//     return x.filter (n => n % 2 == 0)
+// }
+// console.log(f(v))
+
+
+
+
+// const continhaQualquer = (r) => {
+//     return(
+//         r + r + r + r + r + r + r + r + r + r + r + r
+//     ) 
+// }
+// console.log(continhaQualquer(1))
+
+
+// const hello = () => console.log("Hello")
+// hello()
+// const v = [1, 2, 3]
+// const f = (v) => {return v.filter (n => n % 2 == 0)}
+// console.log(f(v))
+
+// const triplo = n => {
+//     return 3 * n
+// }
+// console.log (triplo (5))
+
+// const dobro = (n) => 2 * n
+
+// const dobro = (n) => {
+//     return 2 * n
+// }
+
+// console.log(dobro(5))
+
+// const triplo = function (n = 1){
+//     return n * 3
+// }
+
+// console.log (triplo())
+// console.log (triplo(5))
+
+// const dobro = function (n){
+//     return 2 * n
+// }
+// console.log(dobro(5))
+
+// function soma (a, b){
+//     return a + b
+// }
+// const res = soma (2, 3)
+// console.log(res)
+
+// function hello (){
+//     console.log ("hello")
+// }
+// hello()
+
+// function hello (nome){
+//     console.log ("Hello, " + nome)
+// }
+// hello ("José")
 
 // const valores = [1, 2, 3, 4]
 // const soma = valores.reduce((ac, v) => ac + v, 0)
